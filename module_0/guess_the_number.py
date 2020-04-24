@@ -29,11 +29,10 @@ def game_core_v3(number):
     first = 1 
     last = 100
     count = 0
-    import math
     
     while first <= last:
         count += 1
-        predict = math.trunc((first + last)/2)
+        predict = (first + last)//2
         if predict == number:
             return count
         elif predict > number:
