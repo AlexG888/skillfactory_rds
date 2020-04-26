@@ -29,14 +29,17 @@ def game_core_v3(number):
     first = 1 
     last = 100
     count = 0
+    found = False
     
-    while first <= last:
+    while first <= last and not found:
         count += 1
         predict = (first + last)//2
         if predict == number:
-            return count
-        elif predict > number:
-            last = predict - 1
+            found = True
         else:
-            first = predict + 1
+            if predict > number:
+                last = predict - 1
+            else:
+                first = predict + 1
+    return (count)
 
