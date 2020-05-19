@@ -1,0 +1,1 @@
+Task: make an analysis of dataset "data.csv" on questions from a file "[SF-DST] Movies IMBD v3.0.ipynb"
