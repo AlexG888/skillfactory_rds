@@ -1,15 +1,20 @@
-## Exploratory data analysis
+### Описание проекта
+Вас пригласили поучаствовать в одном из проектов UNICEF — международного подразделения ООН, чья миссия состоит в повышении уровня благополучия детей по всему миру.
+Суть проекта — отследить влияние условий жизни учащихся в возрасте от 15 до 22 лет на их успеваемость по математике, чтобы на ранней стадии выявлять студентов, находящихся в группе риска
 
-Track the impact of living conditions of students aged 15 to 22 on their academic performance in mathematics, in order to identify students at risk at an early stage. Conduct a reconnaissance analysis of the data and compile a report on the results to determine the parameters of a future model that predicts the results of the state exam in mathematics for each student in the school.
+### Цель проекта:
+Провести разведывательный анализ данных и составить отчет по результатам, чтобы определиться с параметрами будущей модели, предсказывающей результаты госэкзамена по математике для каждого ученика школы
 
-Stages of the work:
+### Этапы выполнения работы:
+- Первичная обработка данных
+- Анализ и обработка данных в столбцах
+- Корреляционный анализ количественных переменных
+- Анализ номинативных переменных
+- Выводы
 
-1. Primary data processing
-2. Analysis and processing of data in columns
-3. Correlation analysis of quantitative variables
-4. Analysis of nominative variables
-5. Conclusions
+### Описание датасета
+Датасет содержит информацию об 395 учениках  по таким параметрам как: аббревиатура школы, пол, возраст,тип адреса, размер семьи, статус совместного жилья родителей, образование матери и отца, работа матери и отца, причина выбора школы, опекун, время в пути до школы, время на учёбу помимо школы в неделю, количество внеучебных неудач, дополнительная образовательная поддержка, семейная образовательная поддержка, дополнительные платные занятия по математике, дополнительные внеучебные занятия, посещал детский сад, хочет получить высшее образование, наличие интернета дома, в романтических отношениях, семейные отношения, свободное время после школы, проведение времени с друзьями, текущее состояние здоровья, количество пропущенных занятий, баллы по госэкзамену по математике
 
-### Summary of data
-
-The dataset contains information about 395 students (school abbreviation, gender, age, type of address, family size, status of joint housing of parents, education of mother and father, work of mother and father, reason for choosing school, guardian, travel time to school, time to study in addition to school per week, the number of extracurricular failures, additional educational support, family educational support, additional paid classes in mathematics, additional extracurricular activities, attended kindergarten, wants to get a higher education, having Internet at home, in romantic relationships, family relationships, free time after school, spending time with friends, current health status, the number of missed classes, grades on the state math exam)
+### Описание приложенных файлов:
+    EDA.ipynb - ноутбук с описанием проведенного анализа
+    stud_math.csv - датасет
