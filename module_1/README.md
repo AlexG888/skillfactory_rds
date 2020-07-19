@@ -4,23 +4,22 @@
 
 ### Описание данных:
 Датасет содержит сведения о 1890 фильмах выпущенных с 2000 по 2015 год по следующим параметрам:
-
-- 'imdb_id',
-- 'popularity',
-- 'budget',
-- 'revenue',
-- 'original_title',
-- 'cast',
-- 'director',
-- 'tagline',
-- 'overview',
-- 'runtime',
-- 'genres',
-- 'production_companies',
-- 'release_date',
-- 'vote_count',
-- 'vote_average',
-- 'release_year'.
+- 'imdb_id'
+- 'popularity'
+- 'budget'
+- 'revenue'
+- 'original_title'
+- 'cast'
+- 'director'
+- 'tagline'
+- 'overview'
+- 'runtime'
+- 'genres'
+- 'production_companies'
+- 'release_date'
+- 'vote_count'
+- 'vote_average'
+- 'release_year'
 
 ### Описание приложенных файлов:
 
