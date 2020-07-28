@@ -1,5 +1,9 @@
-Task: write a program that guesses the number from a given interval in a minimum number of attempts
+###  Цель проекта: 
+Написать программу, которая угадывает число из заданного интервала за минимальное количество попыток
 
-This program finds the hidden number for the minimum number of attempts and shows the average number of attempts per 1000 experiments. This program using the binary search algorithm.
+###  Описание работы программы:
+Программа находит загаданное число из интервала от 1 до 100 в 1000 экспериментов, и показывает среднее количество итераций. Реализована с помощью бинарного поиска
  
-You can see the program code in the file guess_the_number.py and the result of program execution in the file guess_the_number.ipynb
+### Описание приложенных файлов:
+    guess_the_number.py - код программы
+    guess_the_number.ipynb - результат выполнения программы
