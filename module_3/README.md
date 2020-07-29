@@ -19,7 +19,7 @@
 - Price Range — диапазон цен в ресторане;
 - Number of Reviews — количество отзывов о ресторане;
 - Reviews — данные о двух отзывах, которые отображаются на сайте ресторана;
-- URL_TA — URL страницы ресторана на [TripAdvosor](www.tripadvisor.com);
+- URL_TA — URL страницы ресторана на [TripAdvosor](https://www.tripadvisor.com/);
 - ID_TA — идентификатор ресторана в базе данных TripAdvisor.
 
 ## Описание проделанной работы
